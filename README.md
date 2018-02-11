@@ -6,11 +6,15 @@ This project utilizes the Kaggle dataset of pro-ISIS tweets collected in a perio
 
 ### Networks analysis
 
+Refer to: 'ISIS_tweets.ipynb' for the python notebook.
+
 Visualizations were first done to understand behaviour of twitter users, followed by networks analysis to identify influential users. The visualizations are under the 'ISIS_tweets.ipynb' file, and are done with Gephi. I also made an interactive networks diagram, using Gephi's sigma-js plugin: 
 <https://chowjiahui.github.io/ISISnetwork> 
 More improvements can be done here as I have yet to reduce the borders of the nodes. 
 
 ### Prediction of tweets intent
+
+Refer to: 'ISIS_tweets_models.ipynb' for the python notebook.
 
 I originally wanted to predict ISIS attacks with this data, but this was deemed unfeasible as the tweets' content were mainly centered on commentary on Middle East news, as well as sharing of propaganda. However, I thought it would be interesting to predict the intent of tweets based on the following categories: 
 
